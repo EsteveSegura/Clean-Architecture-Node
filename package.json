@@ -4,7 +4,8 @@
   "description": "Clean Architecture",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/EsteveSegura/Clean-Architecture-Node/issues"
   },
-  "homepage": "https://github.com/EsteveSegura/Clean-Architecture-Node#readme"
+  "homepage": "https://github.com/EsteveSegura/Clean-Architecture-Node#readme",
+  "dependencies": {
+    "express-session": "^1.17.1",
+    "sanitize-html": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10"
+  }
 }
